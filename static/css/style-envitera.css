@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: ghostwhite;
+    background-color: white;
 }
 
 /* navbar */
@@ -133,11 +133,15 @@ body{
 
 /* report */
 
+.report{
+    background-color: ghostwhite;
+    padding: 30px 0;
+}
 .report .head{
     font-family: Viga;
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .report .head::after{
