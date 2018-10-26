@@ -114,19 +114,19 @@ body{
 
 .content .arrow{
     background-repeat: no-repeat;
-    margin-top :160px;
-    height: 32px;
-    width: 32px;
+    height: 24px;
+    width: 24px;
+    background-size: cover;
 }
 
 .content .prev{
     background-image: url(../img/prev.png);
-    margin-right: 40px;
+    margin-right:-40px;
 }
 
 .content .next{
     background-image: url(../img/next.png);
-    margin-left: 40px;
+    margin-left:-40px;
 }
 
 /* endcontent */
@@ -151,7 +151,7 @@ body{
     margin-bottom: 10px;
     text-align: center;
 }
-
+                
 .report .card-title{
     font-family: Viga;
     font-size: 16px;
@@ -243,6 +243,13 @@ body{
     }
     .content .arrow{
         margin-top:0px;
+    }
+    .content .prev{
+        margin-right: 40px;
+    }
+
+    .content .next{
+        margin-left:40px;
     }
     /* endcontent */
 
