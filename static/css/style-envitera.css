@@ -45,7 +45,7 @@
     color:whitesmoke;
     margin-top: 140px;
     margin-bottom: 20px;
-    font-size: 42px;
+    font-size: 32px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 .hero .display-4 span{
@@ -53,6 +53,33 @@
     font-weight: bold;
 }
 /* endhero */
+
+/* services */
+.service{
+    margin-top:-180px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    padding: 27px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+
+
+.service h4{
+    font-family: Viga;
+    font-size: 18px;
+}
+
+.service p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -8px;
+}
+
+.service img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+/* endservices */
 
 
 /* utilitas */
@@ -92,6 +119,23 @@
     }
     .hero .display-4{
         font-size: 52px;
+    }
+
+    .service{
+        margin-top: -110px;
+    }
+
+    .service h4{
+        font-size: 20px;
+    }
+
+    .service p{
+        font-size: 15px;
+    }
+
+    .service img{
+        width: 64px;
+        margin-bottom: 0;
     }
 
 }
