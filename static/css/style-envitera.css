@@ -3,6 +3,10 @@
     src:url('/static/font/Viga.otf');
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 /* navbar */
 .navbar{
     z-index: 1;
@@ -81,6 +85,34 @@
 }
 /* endservices */
 
+/* content  */
+
+.content {
+    position: relative;
+    margin: 80px auto;
+}
+.content img{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.content h4{
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.content p{
+    font-size: 15px;
+    font-weight: normal;
+    margin:10px 0 25px;
+}
+
+.content .desc{
+    text-align: center;
+}
+
+/* endcontent */
 
 /* utilitas */
 .round-btn{
@@ -144,6 +176,12 @@
         margin-bottom: 0;
     }
     /* endservices */
+
+    /* content */
+    .content .desc{
+        text-align: left;
+    }
+    /* endcontent */
 
 }
 /* endresponsive */
