@@ -177,8 +177,9 @@ body{
 /* regiter */
 .register{
     font-family: Viga;
-    background-color: #eaf5e2;
     font-weight: 600;
+    background-color: #fff;
+    margin-bottom: 0;
 }
 
 .register a{
@@ -191,6 +192,16 @@ body{
 }
 
 /* endregister */
+
+/* footer */
+footer{
+    color:white;
+    background-color:#505F62;
+    position: relative;
+    padding: 30px;
+    margin:0;
+}
+/* endfooter */
 
 /* utilitas */
 .round-btn{
