@@ -112,6 +112,23 @@ body{
     text-align: center;
 }
 
+.content .arrow{
+    background-repeat: no-repeat;
+    margin-top :160px;
+    height: 32px;
+    width: 32px;
+}
+
+.content .prev{
+    background-image: url(../img/prev.png);
+    margin-right: 40px;
+}
+
+.content .next{
+    background-image: url(../img/next.png);
+    margin-left: 40px;
+}
+
 /* endcontent */
 
 /* utilitas */
@@ -180,6 +197,9 @@ body{
     /* content */
     .content .desc{
         text-align: left;
+    }
+    .content .arrow{
+        margin-top:0px;
     }
     /* endcontent */
 
