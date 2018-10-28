@@ -198,7 +198,7 @@ body{
 /* endregister */
 
 /* footer */
-footer{
+.footer{
     color:white;
     background-color:#505F62;
     position: relative;
