@@ -1,3 +1,6 @@
+body{
+    background-color: ghostwhite;
+}
 /* hero */
 .hero{
     height: 300px;
@@ -96,6 +99,12 @@
     font-weight: bold;
 }
 /* endcuplikan */
+
+/* pagination */
+.pagination .page-link{
+    color:#0d7d2b !important;
+}
+/* end pagination */
 
 /* Responsive */
 @media (min-width:992px){
