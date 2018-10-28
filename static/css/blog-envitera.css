@@ -16,8 +16,13 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.post .desc{
+    margin-top: -10px;
+    text-align: center;
+    padding: 20px;
+}
+
 .post-body .desc .card-title{
-    margin-top: 6px;
     margin-bottom: auto;
     font-weight: bold;
 }
@@ -31,7 +36,7 @@
     overflow: hidden;
     position: relative; 
     line-height: 1.2em;
-    max-height: 6em; 
+    max-height: 4.6em; 
     text-align: justify;  
     /* place for '...' */
     margin-right: -1em;
@@ -100,6 +105,13 @@
         font-size: 32px;
     }
     /* endhero */
+
+    /* post */
+    .post .desc{
+        text-align: left;
+    }
+
+    /* endpost */
 
 
 }
