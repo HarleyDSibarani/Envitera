@@ -6,6 +6,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		// nanti ini akan menggunakan kelas model untuk meload data dari db.
+		// yang terpenting sekarang adalah kita tau bagaimana format data yang akan kita kirimkan ke view, ini akan mempermudah pengerjaaan model nantinya
 		$data  = array(
 			'slogan' => "Less <span>pollution</span> <br>  is the best<span> solution</span>.",
 			'contents' =>  [
@@ -30,6 +31,7 @@ class Home extends CI_Controller {
 			]
 
 		);
+		//gunakan direktori ketika membuat view baru (nama direktori = nama controller)
 		$this->load->view('home/index',$data);
 	}
 }
