@@ -28,9 +28,7 @@ class Home extends CI_Controller {
 				["judul"=>"24 Jam","desk"=>"Siap siap menerima laporan Anda.","media"=>"static/img/24h.png"],
 				["judul"=>"Lokasi","desk"=>"Kirim lokasi yang Anda lapor.","media"=>"static/img/map.png"],
 				["judul"=>"Hadiah","desk"=>"Kumpulkan bintang untuk dapatkan uang tunai.","media"=>"static/img/cash.png"]
-			]
-
-		);
+			]);
 		//gunakan direktori ketika membuat view baru (nama direktori = nama controller)
 		$this->load->view('home/index',$data);
 	}
